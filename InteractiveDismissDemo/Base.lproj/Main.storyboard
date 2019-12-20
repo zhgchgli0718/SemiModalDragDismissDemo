@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anc-yb-Qhi">
-                                <rect key="frame" x="156" y="323" width="63" height="41"/>
+                                <rect key="frame" x="156" y="313" width="63" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="OPEN"/>
                                 <connections>
@@ -26,7 +25,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="anc-yb-Qhi" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="7ST-6Q-FeR"/>
                             <constraint firstItem="anc-yb-Qhi" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="fJv-Vw-MbM"/>
@@ -46,19 +45,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TB6-bE-dWa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">UITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextViewUITextView</mutableString>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edo-kl-NPF">
-                                <rect key="frame" x="149.5" y="323" width="76" height="41"/>
+                                <rect key="frame" x="139" y="10" width="97" height="41"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="CLOSE"/>
+                                <state key="normal" title="  CLOSE  "/>
                                 <connections>
                                     <action selector="handleCloseTapped:" destination="NSj-KG-ibY" eventType="touchUpInside" id="qaB-PK-Jf3"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.69824095142227716" green="0.96806922523197969" blue="0.61988608021765268" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Edo-kl-NPF" firstAttribute="centerX" secondItem="bgt-ED-bar" secondAttribute="centerX" id="0Xp-XY-2Dr"/>
-                            <constraint firstItem="Edo-kl-NPF" firstAttribute="centerY" secondItem="bgt-ED-bar" secondAttribute="centerY" id="YqF-3F-9Pd"/>
+                            <constraint firstItem="Edo-kl-NPF" firstAttribute="top" secondItem="bgt-ED-bar" secondAttribute="top" constant="10" id="3Sm-Yp-NBe"/>
+                            <constraint firstItem="bgt-ED-bar" firstAttribute="trailing" secondItem="TB6-bE-dWa" secondAttribute="trailing" id="702-Ay-NNH"/>
+                            <constraint firstItem="TB6-bE-dWa" firstAttribute="leading" secondItem="bgt-ED-bar" secondAttribute="leading" id="cXq-gq-HZu"/>
+                            <constraint firstItem="bgt-ED-bar" firstAttribute="bottom" secondItem="TB6-bE-dWa" secondAttribute="bottom" id="dV4-bW-2pl"/>
+                            <constraint firstItem="TB6-bE-dWa" firstAttribute="top" secondItem="bgt-ED-bar" secondAttribute="top" id="zy8-Op-rcs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="bgt-ED-bar"/>
                     </view>
